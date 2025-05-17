@@ -33,7 +33,6 @@ function Menu({ children, items = [], onChange = defaultFunc }) {
 
     return (
         <Tippy
-            visible
             interactive
             delay={[0, 300]}
             placement="bottom-end"
